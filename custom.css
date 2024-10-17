@@ -1,3 +1,7 @@
 .publication-title {
     font-size: 0.5em;  /* Adjust the size as needed */
 }
+.paper-item img {
+    max-width: 10px; /* 调整这个值以适应你的需要 */
+    height: auto; /* 保持图片的纵横比 */
+}

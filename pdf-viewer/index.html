@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head><title></title><script src="/path/to/pdf.js"></script><meta name="generator" content="Hexo 7.3.0"></head><body><canvas id="pdf-canvas"></canvas><script>const urlParams = new URLSearchParams(window.location.search);
+const file = urlParams.get('file');
+PDFJS.getDocument('/pdf-viewer/your-document.pdf' + file).then(function(pdf) {
+  pdf.getPage(1).then(function(page) {
+    var viewport = page.getViewport({ scale: 1.5 });
+    var canvas = document.getElementById('pdf-canvas');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+    page.render({canvasContext: context, viewport: viewport});
+  });
+});</script></body></html>
