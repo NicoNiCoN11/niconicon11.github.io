@@ -23,7 +23,7 @@
 <li><a href="www.ebi.ac.uk/">EBI</a></li>
 <li><a href="www.genome.jp">JapaneseGenomeNet</a></li>
 </ul>
-<h3 id="1-1-Sequence-databases"><a href="#1-1-Sequence-databases" class="headerlink" title="1.1 Sequence databases"></a>1.1 Sequence databases</h3><p>Regarding the sequence databases, in biology, it usually refers to DNA, RNA and Protein sequence data. As shown in <strong>Figure 1</strong>, for DNA, RNA sequences data, <strong>ENA, GenBank and DDBJ</strong> (Primary archives) are usually the major databases accepting sequence submission from researchers and these data usually comes from direct sequencing.</p>
+<h3 id="1-1-Sequence-databases"><a href="#1-1-Sequence-databases" class="headerlink" title="1.1 Sequence databases"></a>1.1 Sequence databases</h3><p>Regarding the sequence databases, in biology, it usually refers to DNA, RNA and Protein sequence data. As shown in <strong>Figure 1</strong>, for DNA, RNA sequences data, <strong><a target="_blank" rel="noopener" href="https://www.ebi.ac.uk/ena/browser/home">ENA</a>, <a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> and <a target="_blank" rel="noopener" href="https://www.ddbj.nig.ac.jp/index-e.html">DDBJ</a></strong> (Primary archives) are usually the major databases accepting sequence submission from researchers and these data usually comes from direct sequencing.</p>
 <style>
   .fig-caption {
     font-size: 12px;
@@ -31,11 +31,11 @@
   }
 </style>
 <div style="text-align: center;">
-  <img src="/images/blogs/Blog1/image1.png" alt="Fig1" style="width: 400px; height: auto;">
+  <img src="/images/blogs/Blog1/image1.png" alt="Fig1" style="width: 550px; height: auto;">
   <p class="fig-caption">Fig 1. Origin of Sequence</p>
 </div>
 
-<p>An important feature of these primary archives is highly redundant(which means nothing goes out) and their annotations are not updating, so there are many errors in both sequences and annotations.<br><strong>Refseq, Ensembl</strong> (Figure 2)take sequences from primary archives, and apply quality control and gene annotation pipeline to provide the “reference” annotations.</p>
+<p>An important feature of these primary archives is highly redundant(which means nothing goes out) and their annotations are not updating, so there are many errors in both sequences and annotations.<br><strong><a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/refseq/">Refseq</a>, <a target="_blank" rel="noopener" href="https://www.ensembl.org/index.html">Ensembl</a></strong> (Figure 2)take sequences from primary archives, and apply quality control and gene annotation pipeline to provide the “reference” annotations.</p>
 <style>
   .fig-caption {
     font-size: 12px;
@@ -46,7 +46,7 @@
   <img src="/images/blogs/Blog1/Nadatabase.png" alt="Fig2" style="width: 400px; height: auto;">
   <p class="fig-caption">Fig 2. Ensembl and Refseq</p></div>
 
-<p>In Refseq and Ensembl, we can also find the protein sequences derived from gene prediction, which are not submitted to the primary databases.<br>Note: Because of the different methods used for gene prediciton, the final number of proteins can also be different.<br>For protein sequences, a relatively large persentage of them comes from translations of the DNA sequences or predicting the gene structure and then deduce its products(about99%), only 1% come from direct protein sequencing.<br>Mostly used protein databese including <strong>UniProtKB</strong> and <strong>NCBI protein</strong>, both of them are intergrated databases, for UniProtKB, it intergrated data from PDB, PIR, PRF into it database. One of its sub database Swiss-Prot only contains canonical sequences, it usually has these features:</p>
+<p>In Refseq and Ensembl, we can also find the protein sequences derived from gene prediction, which are not submitted to the primary databases.<br>Note: Because of the different methods used for gene prediciton, the final number of proteins can also be different.<br>For protein sequences, a relatively large persentage of them comes from translations of the DNA sequences or predicting the gene structure and then deduce its products(about99%), only 1% come from direct protein sequencing.<br>Mostly used protein databese including <strong><a target="_blank" rel="noopener" href="https://www.uniprot.org/">UniProtKB</a></strong> and <strong><a target="_blank" rel="noopener" href="https://www.ncbi.nlm.nih.gov/protein">NCBI protein</a></strong>, both of them are intergrated databases, for UniProtKB, it intergrated data from PDB, PIR, PRF into it database. One of its sub database Swiss-Prot only contains canonical sequences, it usually has these features:</p>
 <ul>
 <li>One gene, one UniProtKB&#x2F;Swiss-Prot entry.</li>
 <li>AlphaFold usually use the canonical sequences.</li>
@@ -60,7 +60,7 @@
   }
 </style>
 <div style="text-align: center;">
-  <img src="/images/blogs/Blog1/difference.png" alt="Fig3" style="width: 400px; height: auto;">
+  <img src="/images/blogs/Blog1/difference.png" alt="Fig3" style="width: 500px; height: auto;">
   <p class="fig-caption">Fig 3. Differences between Swiss-Prot and TrEMBL</p></div>
 
 <p>In contrast NCBI protein database did not intergrate PDB, PIR and PRF, instead, it provide these information sepratedly.<br>As the description and interface shown in Figure 4. NCBI protein database is not only have access to different data, it also provide access to some tools.</p>
@@ -71,7 +71,64 @@
   }
 </style>
 <div style="text-align: center;">
-  <img src="/images/blogs/Blog1/ncbipro.png" alt="Fig4" style="width: 400px; height: auto;">
+  <img src="/images/blogs/Blog1/ncbipro.png" alt="Fig4" style="width: 550px; height: auto;">
   <p class="fig-caption">Fig 4. NCBI protein description</p></div>
 
-<h3 id="1-2-Genomic-Database"><a href="#1-2-Genomic-Database" class="headerlink" title="1.2 Genomic Database"></a>1.2 Genomic Database</h3></article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/about/"> About</a></li><li class="nav_item"><a class="nav-page" href="/journal-club/"> Journal Club</a></li><li class="nav_item"><a class="nav-page" href="/publications/"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/project/"> Bachelor Thesis</a></li><li class="nav_item"><a class="nav-page" href="/blogs/"> Blogs</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2024 - 2025 by Guo Jiayi</div><p style="font-size: 14px">Powered by Academia</p></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
+<h3 id="1-2-Genomic-Database"><a href="#1-2-Genomic-Database" class="headerlink" title="1.2 Genomic Database"></a>1.2 Genomic Database</h3><p>Genomic databases are also called <strong>Model Organism Database(MOD)</strong>, these database usually provide information on Genes, Chromosomal Location, Gene Expression, Mutations&amp;Phenotypes and Homology of the model organisms, as shown in Figure 5, in addition to well-known mice, other model oragnisms including yeast, fruit fly, etc.</p>
+<style>
+  .fig-caption {
+    font-size: 12px;
+    color: gray;
+  }
+</style>
+<div style="text-align: center;">
+  <img src="/images/blogs/Blog1/model_or.jpg" alt="Fig5" style="width: 450px; height: auto;">
+  <p class="fig-caption">Fig 5. Model Oragnism</p></div>
+
+<p>For most of the model organisms there exist an MOD of it, for example, we have <a target="_blank" rel="noopener" href="https://www.omim.org/">OMIM(human)</a>, <a target="_blank" rel="noopener" href="https://www.informatics.jax.org/">MGI(mouse)</a>, <a target="_blank" rel="noopener" href="https://flybase.org/">Flybase(Drosophila)</a>,<a target="_blank" rel="noopener" href="https://www.yeastgenome.org/">SGD(yeast)</a>, <a target="_blank" rel="noopener" href="https://maizegdb.org/">MaizeGDB(maize)</a>, <a target="_blank" rel="noopener" href="http://genolist.pasteur.fr/SubtiList/">SubtiList(B.subtilis)</a>, <a target="_blank" rel="noopener" href="https://zfin.org/">ZFIN(zebrafish)</a>,<a target="_blank" rel="noopener" href="https://wormbase.org/#012-34-5">Wormbase(C.elegan)</a>, <a target="_blank" rel="noopener" href="https://www.xenbase.org/xenbase/">Xenbase(frog)</a>.<br>These database typically include:</p>
+<ul>
+<li><ol>
+<li>Genome data: Genome sequence(only link to sequence database), gene annotations and variants.</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>Phenotypic data: Traits associated with mutations.</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>Functional data: Gene expression patterns, protein interactions as well as pathways</li>
+</ol>
+</li>
+<li><ol start="4">
+<li>Cross-reference links: Connects to relevant publications or databases</li>
+</ol>
+</li>
+<li><ol start="5">
+<li>Experimental tool: Some built-in tools for sequence alignment or genome browsing.</li>
+</ol>
+</li>
+</ul>
+<p>Here, we mainly introduce the human genomic database <a target="_blank" rel="noopener" href="https://www.omim.org/">OMIM</a>(Online Mendelian Inheritance in Man), in OMIM, there are in total 20300 genes in which 16800 of them has known biological function from UniProtKB, it focuses on the relationship between phenotype and genotype.<br>In OMIM database, the accesstion with a prefix “*” is a gene entry, in which we can find its associated diseases and other descriptions as shown in <a target="_blank" rel="noopener" href="https://omim.org/entry/164870?search=HER2&highlight=her2#geneMap">Figure 6</a>.</p>
+<style>
+  .fig-caption {
+    font-size: 12px;
+    color: gray;
+  }
+</style>
+<div style="text-align: center;">
+  <img src="/images/blogs/Blog1/gene_entry.png" alt="Fig6" style="width: 550px; height: auto;">
+  <p class="fig-caption">Fig 6. Example gene entry</p></div>
+
+<p>For disease entry, the prefix will be “#”, as shown in <a target="_blank" rel="noopener" href="https://omim.org/entry/607822?search=Alzheimer%27s%20disease&highlight=alzheimer,disease">Figure 7</a>, the entry of disease usually gives the access to its clinical synopsis and its genetic relationships.</p>
+<style>
+    .fig-caption {
+    font-size: 12px;
+    color: gray;
+  }
+</style>
+<div style="text-align: center;">
+  <img src="/images/blogs/Blog1/gene_entry.png" alt="Fig7" style="width: 550px; height: auto;">
+  <p class="fig-caption">Fig 7. Example disease entry</p></div>
+
+<p>  Note: Most of the identified associated genes are “Markers” instead of actual causative variants.</p>
+<h3 id="1-3-Protein-Database"><a href="#1-3-Protein-Database" class="headerlink" title="1.3 Protein Database"></a>1.3 Protein Database</h3></article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/about/"> About</a></li><li class="nav_item"><a class="nav-page" href="/journal-club/"> Journal Club</a></li><li class="nav_item"><a class="nav-page" href="/publications/"> Publications</a></li><li class="nav_item"><a class="nav-page" href="/project/"> Bachelor Thesis</a></li><li class="nav_item"><a class="nav-page" href="/blogs/"> Blogs</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2024 - 2025 by Guo Jiayi</div><p style="font-size: 14px">Powered by Academia</p></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script><script src="/js/main.js"></script></body></html>
